@@ -2,12 +2,14 @@ This is a simple crud with node, express, sequelizer and postgress mounted on do
 
 This was created just for fun and learning.
 
-Usage:
+##Usage:
 
-``docker-compose up -d nsp_db
+```sh
+docker-compose up -d nsp_db
 
-``docker-compose build
+docker-compose build
 
-``docker-compose up -d nsp_backend
+docker-compose up -d nsp_backend
+```
 
 You can test with tools like postman to create, read, update and delete users.
